@@ -1,0 +1,33 @@
+{
+  "format": "mwaqit-prayer-times",
+  "schemaVersion": 1,
+  "template": true,
+  "region": {
+    "id": "al-abbasi",
+    "name": "ناحية العباسي"
+  },
+  "years": [
+    {
+      "year": 2026,
+      "months": [
+        {
+          "month": 10,
+          "days": [
+            {
+              "day": 11,
+              "prayers": {
+                "fajrFirst": "h:mm AM/PM",
+                "fajrSecond": "h:mm AM/PM",
+                "sunrise": "h:mm AM/PM",
+                "dhuhr": "h:mm AM/PM",
+                "asr": "h:mm AM/PM",
+                "maghrib": "h:mm AM/PM",
+                "isha": "h:mm AM/PM"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
