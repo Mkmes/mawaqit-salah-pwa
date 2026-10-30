@@ -37,8 +37,7 @@ if (!window._flutter) {
 _flutter.buildConfig = {"engineRevision":"18818009497c581ede5d8a3b8b833b81d00cebb7","builds":[{"compileTarget":"dart2js","renderer":"canvaskit","mainJsPath":"main.dart.js"}],"useLocalCanvasKit":true};
 
 
-// The dedicated offline worker owns the full pre-cache and verifies every
-// bundled asset. Do not also register Flutter's default on-demand worker.
+// Web is online-only. Do not register Flutter's offline service worker.
 _flutter.loader.load({
   config: {
     // CanvasKit otherwise downloads its default Roboto and missing-glyph

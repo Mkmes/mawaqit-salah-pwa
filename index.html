@@ -19,7 +19,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="مواقيت الصلاة للمساجد، تعمل دون إنترنت بعد اكتمال التجهيز.">
+  <meta name="description" content="مواقيت الصلاة للمساجد. تتطلب نسخة الويب اتصالًا بالإنترنت.">
   <meta name="theme-color" content="#123d2d">
 
   <!-- iOS meta tags & icons -->
@@ -34,18 +34,8 @@
 
   <title>مواقيت الصلاة</title>
   <link rel="manifest" href="manifest.json">
-  <style>
-    #offline-status {
-      position: fixed; bottom: 12px; left: 12px; right: 12px; z-index: 99999;
-      direction: rtl; padding: 10px 16px; border-radius: 12px;
-      background: #123d2d; color: #fff; text-align: center;
-      font: 16px/1.5 system-ui, sans-serif; box-shadow: 0 2px 12px #0004;
-    }
-    #offline-status[hidden] { display: none; }
-  </style>
 </head>
 <body>
-  <div id="offline-status" role="status" aria-live="polite">جارٍ تجهيز التطبيق للعمل دون إنترنت…</div>
   <script src="offline-setup.js" defer></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
