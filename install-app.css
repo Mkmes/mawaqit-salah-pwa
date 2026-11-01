@@ -1,0 +1,67 @@
+#app-install {
+  position: fixed;
+  z-index: 10000;
+  top: max(8px, env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+#app-install[hidden], #app-install-help[hidden] { display: none !important; }
+#app-install button, #app-install-help button {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+#app-install button {
+  border: 1px solid #dfbb58;
+  border-radius: 24px;
+  background: #123d2d;
+  color: #fff;
+  padding: 9px 18px;
+  box-shadow: 0 2px 10px #0003;
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: 700;
+}
+#app-install-help {
+  position: fixed;
+  inset: 0;
+  z-index: 10001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: max(16px, env(safe-area-inset-top)) 16px;
+  background: #000a;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  color: #123d2d;
+  box-sizing: border-box;
+}
+#app-install-help .install-card {
+  width: min(100%, 440px);
+  max-height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background: #fffaf0;
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 8px 30px #0005;
+  font-size: 17px;
+  line-height: 1.7;
+}
+#app-install-help h2 { margin: 0 0 10px; font-size: 23px; }
+#app-install-help ol { padding-right: 24px; }
+#app-install-help p { margin: 12px 0; }
+#app-install-help .install-note { font-size: 14px; }
+#app-install-help button {
+  background: #123d2d;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 9px 24px;
+}
+#app-install button:focus-visible, #app-install-help button:focus-visible {
+  outline: 3px solid #bb7c00;
+  outline-offset: 3px;
+}
