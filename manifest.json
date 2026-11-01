@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#123d2d",
     "theme_color": "#123d2d",
-    "description": "مواقيت الصلاة للمساجد. تتطلب نسخة الويب اتصالًا بالإنترنت.",
+    "description": "مواقيت الصلاة للمساجد مع أذان اختياري أثناء فتح التطبيق. تتطلب نسخة الويب اتصالًا بالإنترنت.",
     "orientation": "landscape",
     "prefer_related_applications": false,
     "icons": [

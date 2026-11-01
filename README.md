@@ -1,6 +1,6 @@
 # mawaqit-salah-pwa
 
-Compiled, silent Prayer Times PWA for Android, iPhone and iPad.
+Compiled Prayer Times PWA for Android, iPhone and iPad.
 Private application source and Android packages are not included.
 
 Open https://mkmes.github.io/mawaqit-salah-pwa/ in Safari, then use
@@ -19,3 +19,10 @@ include «مواقيت الصلاة لقرية تل علي» and
 
 Choose the desired region in Settings and save your selection.
 GitHub Actions verifies the compiled release before deploying GitHub Pages.
+
+Optional foreground adhan audio is available in Settings → تنبيهات الأذان.
+Choose and save a region, enable the audio and use the session sound test.
+The recording matches the user-approved Android recording. Each prayer can
+be muted separately. Browser playback needs a user gesture and an active,
+visible page; it is not a background alarm or push notification service.
+Playback with the screen locked or the app closed is not guaranteed.
